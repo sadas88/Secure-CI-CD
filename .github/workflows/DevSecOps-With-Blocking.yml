@@ -64,7 +64,7 @@ jobs:
 
 
   SAST:
-  
+    needs: SCA
     runs-on: ubuntu-latest
     
     steps:
